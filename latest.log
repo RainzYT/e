@@ -1,0 +1,633 @@
+[15:32:15] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[15:32:15] [Server thread/INFO]: Loading properties
+[15:32:16] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-800b93f-8160e29 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[15:32:16] [Server thread/INFO]: Debug logging is disabled
+[15:32:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:32:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:32:16] [Server thread/INFO]: Default game type: SURVIVAL
+[15:32:16] [Server thread/INFO]: Generating keypair
+[15:32:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:32:16] [Server thread/INFO]: Using default channel type
+[15:32:23] [Server thread/WARN]: Plugin dynmap v3.0-beta-10-257 does not specify an api-version.
+[15:32:25] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.1.15
+[15:32:25] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
+[15:32:26] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@57ea54b3]
+[15:32:26] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.1.6
+[15:32:26] [Server thread/INFO]: [BuycraftX] Loading BuycraftX v12.0.6
+[15:32:26] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[15:32:26] [Server thread/INFO]: [dynmap] Loading dynmap v3.0-beta-10-257
+[15:32:26] [Server thread/INFO]: [dynmap] version=git-Spigot-800b93f-8160e29 (MC: 1.15.2)
+[15:32:26] [Server thread/INFO]: [dynmap] Unload queue not found - default to unload all chunks
+[15:32:26] [Server thread/INFO]: [dynmap] inhabitedTicks field not found - inhabited shader not functional
+[15:32:26] [Server thread/INFO]: [dynmap] Mod Support API available
+[15:32:26] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.2.0
+[15:32:26] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.2.0
+[15:32:26] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.17.2.0
+[15:32:26] [Server thread/INFO]: [Towny] Loading Towny v0.96.1.0
+[15:32:26] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.9.10 (beta)
+[15:32:26] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.2.0
+[15:32:26] [Server thread/INFO]: [TownyChat] Loading TownyChat v0.68
+[15:32:26] [Server thread/INFO]: [EssentialsXMPP] Loading EssentialsXMPP v2.17.2.0
+[15:32:26] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.19.0
+[15:32:26] [Server thread/INFO]: [TownyFlight] Loading TownyFlight v1.6.1
+[15:32:26] [Server thread/INFO]: [TownyNameUpdater] Loading TownyNameUpdater v4.0
+[15:32:26] [Server thread/INFO]: [Dynmap-Towny] Loading Dynmap-Towny v0.76
+[15:32:26] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.1.15
+[15:32:26] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[15:32:26] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms [0;36;1mv5.1.15[m
+[15:32:26] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[15:32:26] [Server thread/INFO]: [m
+[15:32:27] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:32:27] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:32:28] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:32:28] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:32:29] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2122ms)
+[15:32:29] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
+[15:32:29] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:32:29] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_15_R2 as the Bukkit adapter
+[15:32:30] [Server thread/WARN]: [WorldEdit] ====================================================
+[15:32:30] [Server thread/WARN]: [WorldEdit]  WorldEdit works better if you use Paper 
+[15:32:30] [Server thread/WARN]: [WorldEdit]  as your server software. 
+[15:32:30] [Server thread/WARN]: [WorldEdit]   
+[15:32:30] [Server thread/WARN]: [WorldEdit]  Paper offers significant performance improvements,
+[15:32:30] [Server thread/WARN]: [WorldEdit]  bug fixes, security enhancements and optional
+[15:32:30] [Server thread/WARN]: [WorldEdit]  features for server owners to enhance their server.
+[15:32:30] [Server thread/WARN]: [WorldEdit]   
+[15:32:30] [Server thread/WARN]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[15:32:30] [Server thread/WARN]: [WorldEdit]  better at diagnosing lag problems over v1.
+[15:32:30] [Server thread/WARN]: [WorldEdit]   
+[15:32:30] [Server thread/WARN]: [WorldEdit]  All of your plugins should still work, and the
+[15:32:30] [Server thread/WARN]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[15:32:30] [Server thread/WARN]: [WorldEdit]   
+[15:32:30] [Server thread/WARN]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[15:32:30] [Server thread/WARN]: [WorldEdit] ====================================================
+[15:32:30] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[15:32:30] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[15:32:30] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[15:32:30] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[15:32:30] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[15:32:30] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[15:32:30] [Server thread/INFO]: Preparing level "world"
+[15:32:30] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[15:32:31] [Server thread/INFO]: Loaded 6 recipes
+[15:32:32] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:32:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:32:32] [Server thread/INFO]: View Distance: 6
+[15:32:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:32:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:32:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:32:32] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:32:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:32:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:32:32] [Server thread/INFO]: Mob Spawn Range: 6
+[15:32:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:32:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:32:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:32:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:32:32] [Server thread/INFO]: Max TNT Explosions: 100
+[15:32:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[15:32:32] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:32:32] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:32:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:32:32] [Server thread/INFO]: View Distance: 6
+[15:32:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:32:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:32:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:32:32] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:32:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:32:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:32:32] [Server thread/INFO]: Mob Spawn Range: 6
+[15:32:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:32:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:32:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:32:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:32:32] [Server thread/INFO]: Max TNT Explosions: 100
+[15:32:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[15:32:32] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:32:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:32:32] [Server thread/INFO]: View Distance: 6
+[15:32:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:32:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:32:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:32:32] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:32:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:32:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:32:32] [Server thread/INFO]: Mob Spawn Range: 6
+[15:32:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:32:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:32:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:32:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:32:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:32:32] [Server thread/INFO]: Max TNT Explosions: 100
+[15:32:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[15:32:32] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[15:32:35] [Server thread/INFO]: Preparing spawn area: 0%
+[15:32:35] [Server thread/INFO]: Preparing spawn area: 0%
+[15:32:35] [Server thread/INFO]: Preparing spawn area: 0%
+[15:32:35] [Server thread/INFO]: Preparing spawn area: 0%
+[15:32:35] [Server thread/INFO]: Preparing spawn area: 0%
+[15:32:35] [Server thread/INFO]: Preparing spawn area: 0%
+[15:32:35] [Server thread/INFO]: Time elapsed: 2931 ms
+[15:32:35] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[15:32:36] [Server thread/INFO]: Preparing spawn area: 0%
+[15:32:36] [Server thread/INFO]: Preparing spawn area: 0%
+[15:32:36] [Server thread/INFO]: Preparing spawn area: 0%
+[15:32:37] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[15:32:37] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[15:32:38] [Server-Worker-3/INFO]: Preparing spawn area: 83%
+[15:32:38] [Server-Worker-3/INFO]: Preparing spawn area: 86%
+[15:32:39] [Server-Worker-1/INFO]: Preparing spawn area: 86%
+[15:32:39] [Server thread/INFO]: Time elapsed: 3992 ms
+[15:32:39] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[15:32:40] [Server thread/INFO]: Preparing spawn area: 0%
+[15:32:40] [Server-Worker-1/INFO]: Preparing spawn area: 89%
+[15:32:40] [Server thread/INFO]: Time elapsed: 897 ms
+[15:32:40] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.1.6
+[15:32:40] [Server thread/INFO]: [ClearLag] Loading modules...
+[15:32:40] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[15:32:40] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[15:32:40] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[15:32:40] [Thread-16/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.15]...
+[15:32:40] [Server thread/INFO]: [BuycraftX] Enabling BuycraftX v12.0.6
+[15:32:40] [Server thread/INFO]: [BuycraftX] Validating your server key...
+[15:32:42] [Thread-16/INFO]: [ClearLag] No updates found!
+[15:32:42] [Server thread/INFO]: [BuycraftX] Fetching all server packages...
+[15:32:43] [Server thread/INFO]: [dynmap] Enabling dynmap v3.0-beta-10-257
+[15:32:44] [Server thread/INFO]: [dynmap] Using LuckPerms 5.1.15 for access control
+[15:32:44] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[15:32:45] [Server thread/INFO]: [dynmap] Loaded 25 shaders.
+[15:32:45] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
+[15:32:45] [Server thread/INFO]: [dynmap] Loaded 14 lightings.
+[15:32:46] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8880
+[15:32:46] [Server thread/INFO]: [dynmap] version 3.0-beta-10-257 is enabled - core version 3.0-beta-10-257
+[15:32:46] [Server thread/INFO]: [dynmap] For support, visit https://forums.dynmap.us
+[15:32:46] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[15:32:46] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[15:32:46] [Server thread/INFO]: [dynmap] Loaded 5 pending tile renders for world 'world'
+[15:32:46] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[15:32:46] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[15:32:47] [Server thread/INFO]: [dynmap] Loaded 32313 pending tile renders for world 'world_the_end'
+[15:32:47] [Server thread/INFO]: [dynmap] Enabled
+[15:32:47] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.2.0
+[15:32:47] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[15:32:47] [Server thread/INFO]: No kits found to migrate.
+[15:32:47] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[15:32:47] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[15:32:47] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[15:32:47] [Server thread/INFO]: Loaded 21018 items from items.json.
+[15:32:47] [Server thread/INFO]: Using locale en_US
+[15:32:47] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:32:47] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:32:47] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[15:32:47] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[15:32:47] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.2.0
+[15:32:47] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.17.2.0
+[15:32:47] [Server thread/ERROR]: No license key found! Please visit https://essentialsx.cf/geoip for first time setup instructions.
+[15:32:47] [Server thread/ERROR]: Failed to read GeoIP database!
+java.io.FileNotFoundException: plugins\EssentialsGeoIP\GeoIP2-Country.mmdb (The system cannot find the file specified)
+	at java.io.RandomAccessFile.open0(Native Method) ~[?:1.8.0_251]
+	at java.io.RandomAccessFile.open(Unknown Source) ~[?:1.8.0_251]
+	at java.io.RandomAccessFile.<init>(Unknown Source) ~[?:1.8.0_251]
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19) ~[EssentialsXGeoIP-2.17.2.0.jar:?]
+	at com.maxmind.db.Reader.<init>(Reader.java:116) ~[EssentialsXGeoIP-2.17.2.0.jar:?]
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:66) ~[EssentialsXGeoIP-2.17.2.0.jar:?]
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:54) ~[EssentialsXGeoIP-2.17.2.0.jar:?]
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:160) ~[EssentialsXGeoIP-2.17.2.0.jar:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.reloadConfig(EssentialsGeoIPPlayerListener.java:158) [EssentialsXGeoIP-2.17.2.0.jar:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.<init>(EssentialsGeoIPPlayerListener.java:43) [EssentialsXGeoIP-2.17.2.0.jar:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIP.onEnable(EssentialsGeoIP.java:31) [EssentialsXGeoIP-2.17.2.0.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:352) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:417) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.enablePlugin(CraftServer.java:462) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.CraftServer.enablePlugins(CraftServer.java:376) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:457) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.init(DedicatedServer.java:267) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:784) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_251]
+[15:32:47] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[15:32:47] [Server thread/INFO]: [Towny] Enabling Towny v0.96.1.0
+[15:32:47] [Server thread/INFO]: ====================      Towny      ========================
+[15:32:47] [Server thread/INFO]: [Towny] Database: [Load] flatfile [Save] flatfile
+[15:32:57] [Server thread/INFO]: [Towny] Database loaded in 9793ms.
+[15:33:32] [Server thread/INFO]: [Towny] Deleted 2 old files.
+[15:33:32] [Server thread/INFO]: [Towny] Warning: Essentials Economy has been known to reset town and nation bank accounts to their default amount. The authors of Essentials recommend using another economy plugin until they have fixed this bug.
+[15:33:32] [Server thread/INFO]: [Towny] Using: LuckPerms 5.1.15 via Vault 1.7.2-b107, Essentials Economy via Vault
+[15:33:32] [Server thread/INFO]: [Towny] Time until a New Day: 20 hours, 26 minutes, 28 seconds
+[15:33:32] [Server thread/INFO]: =============================================================
+[15:33:32] [Server thread/INFO]: [Towny] Version: 0.96.1.0 - Mod Enabled
+[15:33:32] [Server thread/INFO]: =============================================================
+[15:33:32] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.9.10 (beta)
+[15:33:32] [Server thread/INFO]: [WorldBorder] [CONFIG] Using rectangular/square border, knockback of 3.0 blocks, and timer delay of 5.
+[15:33:32] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[15:33:32] [Server thread/INFO]: [WorldBorder] [CONFIG] World "world" has border radius 21504x10752 at X: 0.0 Z: 0.0
+[15:33:32] [Server thread/INFO]: [WorldBorder] [CONFIG] Successfully hooked into DynMap for the ability to display borders.
+[15:33:32] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 4420.0 Y: 90.0 Z: -456.0
+[15:33:32] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.2.0
+[15:33:32] [Server thread/INFO]: [TownyChat] Enabling TownyChat v0.68
+[15:33:32] [Server thread/INFO]: [TownyChat] Default Channel set to general
+[15:33:32] [Server thread/INFO]: [EssentialsXMPP] Enabling EssentialsXMPP v2.17.2.0
+[15:33:32] [Server thread/WARN]: config broken for xmpp
+[15:33:32] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.19.0
+[15:33:32] [Server thread/WARN]: [DiscordSRV] Config key Channels.global is missing from the config.yml. Using the default value of 000000000000000000
+[15:33:32] [Server thread/INFO]: [TownyFlight] Enabling TownyFlight v1.6.1
+[15:33:32] [Server thread/INFO]: [TownyFlight] Towny version 0.96.1.0 found.
+[15:33:32] [Server thread/INFO]: [TownyFlight] TownyFlight v1.6.1 by LlmDl Enabled.
+[15:33:32] [Server thread/INFO]: [TownyNameUpdater] Enabling TownyNameUpdater v4.0
+[15:33:32] [Server thread/INFO]: [Dynmap-Towny] Enabling Dynmap-Towny v0.76
+[15:33:32] [Server thread/INFO]: [Dynmap-Towny] initializing
+[15:33:32] [Server thread/INFO]: [Dynmap-Towny] Dynmap does not have player-info-protected enabled - visibility-by-town will have no effect
+[15:33:32] [Server thread/INFO]: [Dynmap-Towny] Dynmap does not have player-info-protected enabled - visibility-by-nation will have no effect
+[15:33:32] [Server thread/INFO]: [Dynmap-Towny] version 0.76 is activated
+[15:33:32] [Server thread/INFO]: [Dynmap-Towny] TownyChat detect: disabling normal chat-to-web processing in Dynmap
+[15:33:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:33:33] [Server thread/INFO]: Done (62.992s)! For help, type "help"
+[15:33:33] [Server thread/INFO]: Starting GS4 status listener
+[15:33:33] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[15:33:33] [Server thread/INFO]: [TownyChat] -******* TownyChat enabled *******-
+[15:33:33] [Craft Scheduler Thread - 10/INFO]: [Vault] Checking for Updates ... 
+[15:33:33] [Server thread/INFO]: com.mojang.authlib.GameProfile@62af71a9[id=<null>,name=TexanModder,properties={},legacy=false] (/98.201.52.213:55977) lost connection: Disconnected
+[15:33:33] [Server thread/INFO]: com.mojang.authlib.GameProfile@74d23f77[id=<null>,name=SkapDoesMC,properties={},legacy=false] (/192.168.0.1:52382) lost connection: Disconnected
+[15:33:34] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[15:33:34] [Craft Scheduler Thread - 2/INFO]: [BuycraftX] Fetching all due players...
+[15:33:34] [Craft Scheduler Thread - 10/INFO]: [Vault] No new version available
+[15:33:34] [Craft Scheduler Thread - 2/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:33:34] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[15:33:35] [pool-19-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (177e9ce21d611290321e81b1cbc78fb4fff7ecf7)
+[15:33:35] [JDA MainWS-WriteThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[15:33:35] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[15:33:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:FlatEarth(619919608295587840)
+[15:33:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:announcements(620309068153880578)
+[15:33:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:rules(724648440163991613)
+[15:33:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:ip(620309730920890407)
+[15:33:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:donation-goal(620310024148877312)
+[15:33:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:staffapps(723957938154373204)
+[15:33:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:suggestions(712831919259254846)
+[15:33:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:updates(621454410584948757)
+[15:33:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:logo(723956722569314355)
+[15:33:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:general(619919608295587844)
+[15:33:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:off-topic(620310204424257572)
+[15:33:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:in-game-chat(678700947861405706)
+[15:33:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:staff-chat(620327180945063936)
+[15:33:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:memes(714200150435692577)
+[15:33:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
+[15:33:35] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Not using JDBC, one of host/port/database was default
+[15:33:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Automatically enabled hooking for 1 TownyChat channels: general
+[15:33:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling TownyChat hook
+[15:33:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Essentials hook
+[15:33:36] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling dynmap hook
+[15:33:36] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:in-game-chat(678700947861405706) because the bot does not have the "Manage Channels" permission
+[15:33:41] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] a_guy_and_he_does_stuff > backup the server files before opening it
+[15:33:49] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] a_guy_and_he_does_stuff > else there's gonna be some...issues
+[15:33:55] [User Authenticator #1/INFO]: UUID of player SpencerS145 is ba9f36f3-2921-4c15-886b-d7f2242c5f93
+[15:33:56] [Server thread/INFO]: SpencerS145[/70.181.1.32:54148] logged in with entity id 45 at ([world]-5314.332997913713, 139.0, -7300.240488193914)
+[15:33:58] [Server thread/WARN]: [Essentials] Task #112 for Essentials v2.17.2.0 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:81) ~[spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:394) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1036) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_251]
+[15:33:58] [Server thread/WARN]: [Essentials] Permissions lag notice with (ModernVaultHandler). Response took 297.172800ms. Summary: Getting prefix for SpencerS145
+[15:33:58] [Craft Scheduler Thread - 0/WARN]: [Essentials] Plugin Essentials v2.17.2.0 generated an exception while executing task 111
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.delayedJoin(EssentialsGeoIPPlayerListener.java:80) ~[?:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.lambda$onPlayerJoin$0(EssentialsGeoIPPlayerListener.java:48) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:81) ~[spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_251]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_251]
+[15:34:02] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m HECK.[m
+[15:34:10] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m so long, greenland[m
+[15:34:10] [User Authenticator #2/INFO]: UUID of player SkapDoesMC is 9f040513-950f-430e-86b1-b7f68c192d81
+[15:34:10] [Server thread/INFO]: [DiscordSRV] Player SkapDoesMC joined with silent joining permission, not sending a join message
+[15:34:10] [Server thread/INFO]: SkapDoesMC[/192.168.0.1:52385] logged in with entity id 224 at ([world_the_end]-2795.170501507271, 181.76877209227257, 788.9695394672157)
+[15:34:10] [Server thread/WARN]: [Essentials] Task #210 for Essentials v2.17.2.0 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:150) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:81) ~[spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:394) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1036) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_251]
+[15:34:14] [User Authenticator #3/INFO]: UUID of player TexanModder is e8282e42-d1cd-420e-ab98-9a98b057fd61
+[15:34:14] [Server thread/INFO]: TexanModder[/98.201.52.213:56007] logged in with entity id 400 at ([world]-11453.832203002303, 63.0, -3575.622503433234)
+[15:34:14] [Server thread/WARN]: [Essentials] Task #245 for Essentials v2.17.2.0 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:150) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:81) ~[spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:394) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1036) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_251]
+[15:34:14] [Craft Scheduler Thread - 5/WARN]: [Essentials] Plugin Essentials v2.17.2.0 generated an exception while executing task 244
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.delayedJoin(EssentialsGeoIPPlayerListener.java:80) ~[?:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.lambda$onPlayerJoin$0(EssentialsGeoIPPlayerListener.java:48) ~[?:?]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:81) ~[spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [spigot-1.15.2.jar:git-Spigot-800b93f-8160e29]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_251]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_251]
+[15:34:14] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;36;22mOwnersVille[0;37;1m] [0;36;1m[0;31;22m[0;31;22m[L[0;31;22m[0;33;22me[0;33;22m[0;33;1mg[0;33;1m[0;32;22me[0;32;22m[0;36;1mn[0;36;1m[0;35;1md[0;35;1m[0;31;22m][0;31;22m [0;31;22mSkapDoesMC[m[0;37;1m:[0;37;1m heck?[m
+[15:34:17] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m timed out[m
+[15:34:24] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m and crashed[m
+[15:34:26] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m heck, you hecking heard me[m
+[15:34:32] [Server thread/INFO]: TexanModder issued server command: /home
+[15:34:33] [Craft Scheduler Thread - 10/INFO]: [BuycraftX] Sending 3 analytic events
+[15:34:35] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m yeah it hecking does that sometimes[m
+[15:34:38] [Server thread/INFO]: TexanModder issued server command: /tpa SpencerS145
+[15:34:39] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m the server just dies[m
+[15:34:41] [Server thread/INFO]: SkapDoesMC issued server command: /fly
+[15:34:42] [Server thread/INFO]: SpencerS145 issued server command: /tpaccept
+[15:34:46] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m welcome to greenland friend[m
+[15:35:14] [Server thread/INFO]: TexanModder issued server command: /sell end_rod
+[15:35:14] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m it's a wasteland, but it's my wasteland[m
+[15:35:19] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m and at least the view is nice[m
+[15:35:26] [Server thread/INFO]: SkapDoesMC issued server command: /sethome
+[15:35:28] [Server thread/INFO]: SkapDoesMC issued server command: /kill SkapDoesMC
+[15:35:28] [Server thread/INFO]: SkapDoesMC died
+[15:35:31] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m F[m
+[15:35:34] [Craft Scheduler Thread - 10/INFO]: [BuycraftX] Fetching all due players...
+[15:35:34] [Craft Scheduler Thread - 10/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:35:35] [Server thread/INFO]: SkapDoesMC issued server command: /home home
+[15:35:38] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m we have two towns[m
+[15:35:42] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m one here, one to the west[m
+[15:35:59] [Server thread/INFO]: SkapDoesMC issued server command: /gmc
+[15:36:05] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m so you're in houston?[m
+[15:36:07] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m that texas[m
+[15:36:08] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m ye[m
+[15:36:20] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m that texas?*[m
+[15:36:24] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m yes[m
+[15:36:29] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m so that houston[m
+[15:36:34] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m is it ALSO a wasteland[m
+[15:36:37] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m houston is in texas[m
+[15:36:38] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m no[m
+[15:36:40] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m lol[m
+[15:36:46] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m yeah no i figured it wouldnt be[m
+[15:36:50] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m even in a semi-desert[m
+[15:37:23] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m i'm going to upgrade to diamond gear[m
+[15:37:31] [Async Chat Thread - #0/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m i'm long overdue[m
+[15:37:34] [Craft Scheduler Thread - 6/INFO]: [BuycraftX] Fetching all due players...
+[15:37:34] [Craft Scheduler Thread - 6/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:38:42] [Server thread/INFO]: TexanModder issued server command: /homr
+[15:38:47] [Server thread/INFO]: TexanModder issued server command: /tpa SkapDoesMC
+[15:38:54] [Server thread/INFO]: SkapDoesMC issued server command: /tpaccept
+[15:38:56] [Server thread/INFO]: SkapDoesMC issued server command: /tps
+[15:39:06] [Server thread/INFO]: SkapDoesMC issued server command: /gms
+[15:39:06] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mOwnersVille[0;37;1m] [0;36;1m[0;31;22m[0;31;22m[L[0;31;22m[0;33;22me[0;33;22m[0;33;1mg[0;33;1m[0;32;22me[0;32;22m[0;36;1mn[0;36;1m[0;35;1md[0;35;1m[0;31;22m][0;31;22m [0;31;22mSkapDoesMC[m[0;37;1m:[0;37;1m whgart[m
+[15:39:13] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m whgart[m
+[15:39:19] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m whgart[m
+[15:39:27] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m mind if i visit houston[m
+[15:39:34] [Craft Scheduler Thread - 5/INFO]: [BuycraftX] Fetching all due players...
+[15:39:34] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m i guess[m
+[15:39:34] [Craft Scheduler Thread - 5/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:39:36] [Server thread/INFO]: SkapDoesMC issued server command: /t spawn
+[15:39:39] [Server thread/INFO]: SpencerS145 issued server command: /t spawn houston
+[15:39:50] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m oh hey this is a lot grassier than i expected[m
+[15:39:50] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m heck[m
+[15:40:06] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m im gonna check a world map real quick[m
+[15:40:42] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m well look at that[m
+[15:40:56] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m guess my impression of texas is a little bit off[m
+[15:41:06] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m what did you think[m
+[15:41:16] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m mostly desert and semi-desert[m
+[15:41:34] [Craft Scheduler Thread - 10/INFO]: [BuycraftX] Fetching all due players...
+[15:41:35] [Craft Scheduler Thread - 10/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:41:49] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m not desert desert but still hot and dry[m
+[15:42:00] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m guess this makes more sense tbh[m
+[15:42:04] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m you got it mostly right[m
+[15:42:07] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m given the closeness to the gulf of mexico[m
+[15:42:11] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m its hot every day[m
+[15:42:14] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m lol[m
+[15:42:22] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m yeah that much isn't up for debate[m
+[15:42:23] [Server thread/INFO]: SkapDoesMC issued server command: /plugins
+[15:42:37] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m i'm in connecticut personally[m
+[15:42:51] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m i found good stuff[m
+[15:42:57] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m how good is good[m
+[15:42:58] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m whats curse of binding again[m
+[15:43:05] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m once it's on, you have to die to remove it[m
+[15:43:13] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m eh its a god helment[m
+[15:43:14] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m so idc[m
+[15:43:17] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m lol[m
+[15:43:20] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m you in the end?[m
+[15:43:23] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m yeah[m
+[15:43:25] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m crap[m
+[15:43:30] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m i got 3 god helments[m
+[15:43:30] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m if i had elytra id fucking raid the shit out of it[m
+[15:43:33] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m you can tpa to me[m
+[15:43:35] [Craft Scheduler Thread - 5/INFO]: [BuycraftX] Fetching all due players...
+[15:43:35] [Craft Scheduler Thread - 5/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:43:36] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:in-game-chat(678700947861405706) because the bot does not have the "Manage Channels" permission
+[15:43:44] [Server thread/INFO]: TexanModder issued server command: /sell gold_ingot
+[15:43:44] [Server thread/INFO]: §eTexanModder§r §asold§e gold_ingot§a for §e$700 §a(7 items at $100 each).
+[15:43:45] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m i just need one pair for the chain reaction to start...[m
+[15:43:49] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m i sell gold[m
+[15:43:56] [Server thread/INFO]: SpencerS145 issued server command: /tpa TexanModder
+[15:43:56] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m the gold i got[m
+[15:44:01] [Server thread/INFO]: TexanModder issued server command: /tpaccept
+[15:44:01] [Server thread/INFO]: SpencerS145 has made the advancement [The End?]
+[15:44:01] [Server thread/INFO]: SpencerS145 has made the advancement [The City at the End of the Game]
+[15:44:04] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mOwnersVille[0;37;1m] [0;36;1m[0;31;22m[0;31;22m[L[0;31;22m[0;33;22me[0;33;22m[0;33;1mg[0;33;1m[0;32;22me[0;32;22m[0;36;1mn[0;36;1m[0;35;1md[0;35;1m[0;31;22m][0;31;22m [0;31;22mSkapDoesMC[m[0;37;1m:[0;37;1m gg[m
+[15:44:04] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m and i got 700[m
+[15:44:09] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m come here[m
+[15:44:28] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m ah[m
+[15:44:29] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m thanks man[m
+[15:44:32] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m your wlecome[m
+[15:44:33] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m welcome[m
+[15:44:36] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m some bail fruits[m
+[15:44:37] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m nice[m
+[15:44:44] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m what i really need is a pair o wings[m
+[15:44:50] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[15:44:50] [Server thread/INFO]: Found that the dragon has been killed in this world already.
+[15:44:52] [Server thread/INFO]: TexanModder issued server command: /sell iron_ingot
+[15:44:52] [Server thread/INFO]: §eTexanModder§r §asold§e iron_ingot§a for §e$20 §a(10 items at $2 each).
+[15:44:52] [Server thread/INFO]: SkapDoesMC issued server command: /t spawn
+[15:44:55] [Server thread/INFO]: TexanModder issued server command: /money
+[15:45:00] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m i have 720 in my bank[m
+[15:45:04] [Server thread/INFO]: TexanModder issued server command: /t deposit 720
+[15:45:04] [Server thread/INFO]: [Town Msg] Houston: TexanModder deposited 720 into the Town bank.
+[15:45:04] [Server thread/INFO]: TexanModder issued server command: /t
+[15:45:06] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m 720 bucks?[m
+[15:45:09] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m now its in my town bank[m
+[15:45:35] [Craft Scheduler Thread - 5/INFO]: [BuycraftX] Fetching all due players...
+[15:45:35] [Craft Scheduler Thread - 5/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:45:49] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m heh[m
+[15:45:57] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m we need to find an ender chest[m
+[15:46:02] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m i already did[m
+[15:46:10] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m above therr[m
+[15:46:39] [Server thread/INFO]: SkapDoesMC issued server command: /enchant mending
+[15:46:46] [Server thread/INFO]: SkapDoesMC issued server command: /enchant mending
+[15:46:47] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m bruh its in the other[m
+[15:46:53] [Server thread/INFO]: SkapDoesMC issued server command: /enchant mending
+[15:46:56] [Server thread/INFO]: SkapDoesMC issued server command: /enchant mending
+[15:46:56] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m i've raided so many of thes[m
+[15:47:03] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m i can tell at a glance exactly the # of chests in this city[m
+[15:47:04] [Server thread/WARN]: TexanModder moved too quickly! 2.2393484181711756,-90.0,5.352187303165806
+[15:47:11] [Server thread/INFO]: TexanModder issued server command: /tpa SpencerS145
+[15:47:13] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m ok the lack of slow falling is REALLY starting to hurt now[m
+[15:47:16] [Server thread/INFO]: SpencerS145 issued server command: /tpaccept
+[15:47:17] [Server thread/INFO]: SkapDoesMC issued server command: /sell hand
+[15:47:17] [Server thread/INFO]: §e§4SkapDoesMC§r §asold§e dirt§a for §e$0 §a(1 items at $0 each).
+[15:47:20] [Server thread/INFO]: SkapDoesMC issued server command: /sell hand
+[15:47:20] [Server thread/INFO]: §e§4SkapDoesMC§r §asold§e sand§a for §e$2 §a(2 items at $1 each).
+[15:47:22] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m keep the wter[m
+[15:47:24] [Server thread/INFO]: SkapDoesMC issued server command: /bal
+[15:47:25] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m water[m
+[15:47:35] [Craft Scheduler Thread - 5/INFO]: [BuycraftX] Fetching all due players...
+[15:47:35] [Craft Scheduler Thread - 5/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:47:40] [Server thread/INFO]: SkapDoesMC issued server command: /sell hand
+[15:47:40] [Server thread/INFO]: §e§4SkapDoesMC§r §asold§e dirt§a for §e$0 §a(5 items at $0 each).
+[15:47:54] [Server thread/INFO]: TexanModder issued server command: /sell diamond
+[15:47:54] [Server thread/INFO]: §eTexanModder§r §asold§e diamond§a for §e$200 §a(1 items at $200 each).
+[15:47:57] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m give it back[m
+[15:47:59] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mOwnersVille[0;37;1m] [0;36;1m[0;31;22m[0;31;22m[L[0;31;22m[0;33;22me[0;33;22m[0;33;1mg[0;33;1m[0;32;22me[0;32;22m[0;36;1mn[0;36;1m[0;35;1md[0;35;1m[0;31;22m][0;31;22m [0;31;22mSkapDoesMC[m[0;37;1m:[0;37;1m wa[m
+[15:48:03] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m i was testing[m
+[15:48:06] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m how much it is[m
+[15:48:06] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m k[m
+[15:48:09] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m 200 each[m
+[15:48:10] [Server thread/INFO]: TexanModder issued server command: /t deposit 200
+[15:48:10] [Server thread/INFO]: [Town Msg] Houston: TexanModder deposited 200 into the Town bank.
+[15:48:11] [Server thread/INFO]: TexanModder issued server command: /t
+[15:48:15] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m hey buddy[m
+[15:48:16] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m i got 1088[m
+[15:48:17] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m dont sell ur diamonds[m
+[15:48:22] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m eh ik[m
+[15:48:23] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m i can hook you up with the good shit[m
+[15:48:29] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m fall with me[m
+[15:49:23] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m found them[m
+[15:49:35] [Craft Scheduler Thread - 5/INFO]: [BuycraftX] Fetching all due players...
+[15:49:35] [Craft Scheduler Thread - 5/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:50:00] [Server thread/INFO]: TexanModder issued server command: /sell iron_ingot
+[15:50:00] [Server thread/INFO]: §eTexanModder§r §asold§e iron_ingot§a for §e$6 §a(3 items at $2 each).
+[15:50:03] [Server thread/INFO]: TexanModder issued server command: /money
+[15:50:05] [Server thread/INFO]: TexanModder issued server command: /t deposit 6
+[15:50:05] [Server thread/INFO]: [Town Msg] Houston: TexanModder deposited 6 into the Town bank.
+[15:50:17] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m crazy shovel up here[m
+[15:50:23] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m i got silk[m
+[15:50:30] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m max enchant iron up there[m
+[15:50:51] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m we'll split the loot on the way back[m
+[15:50:58] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m store everything you're not using[m
+[15:50:59] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m i got silk form before[m
+[15:51:04] [Server thread/INFO]: SkapDoesMC issued server command: /sell hand
+[15:51:06] [Server thread/INFO]: SkapDoesMC issued server command: /sell handshield
+[15:51:20] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m my shovel has silk[m
+[15:51:22] [Server thread/INFO]: SkapDoesMC issued server command: /sell rotten_flesh
+[15:51:24] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m what about it[m
+[15:51:28] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m eh[m
+[15:51:29] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m oh[m
+[15:51:29] [Server thread/INFO]: SkapDoesMC issued server command: /sell rottenflesh 1
+[15:51:32] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m that wouldn't work anyways-[m
+[15:51:34] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m waiiiit[m
+[15:51:35] [Craft Scheduler Thread - 11/INFO]: [BuycraftX] Fetching all due players...
+[15:51:36] [Craft Scheduler Thread - 11/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:51:38] [Server thread/INFO]: SpencerS145 issued server command: /t spawn Nanortalik
+[15:51:46] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m you would get 8 obby[m
+[15:51:49] [Server thread/INFO]: SpencerS145 issued server command: /tpa TexanModder
+[15:51:53] [Server thread/INFO]: TexanModder issued server command: /tpaccept
+[15:52:02] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m didnt you /sethome[m
+[15:52:09] [Async Chat Thread - #1/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m i have a slightly nicer sethome[m
+[15:52:52] [Server thread/INFO]: SkapDoesMC issued server command: /give SkapDoesMC rock
+[15:52:55] [Server thread/INFO]: SkapDoesMC issued server command: /sell hand
+[15:52:55] [Server thread/INFO]: §e§4SkapDoesMC§r §asold§e stone§a for §e$0 §a(64 items at $0 each).
+[15:53:02] [Server thread/INFO]: SkapDoesMC issued server command: /gmc
+[15:53:11] [Server thread/INFO]: SkapDoesMC issued server command: /gms
+[15:53:36] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:in-game-chat(678700947861405706) because the bot does not have the "Manage Channels" permission
+[15:53:36] [Craft Scheduler Thread - 15/INFO]: [BuycraftX] Fetching all due players...
+[15:53:36] [Craft Scheduler Thread - 15/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:53:50] [Async Chat Thread - #2/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m !!!!!!!![m
+[15:53:59] [Server thread/INFO]: TexanModder issued server command: /t spawn
+[15:54:00] [Server thread/INFO]: TexanModder has completed the challenge [Great View From Up Here]
+[15:54:08] [Async Chat Thread - #2/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m uh oh[m
+[15:54:09] [Async Chat Thread - #2/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m are you good[m
+[15:54:15] [Async Chat Thread - #2/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m yeah i did /t spawn[m
+[15:54:20] [Async Chat Thread - #2/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m while i was going up[m
+[15:54:23] [Async Chat Thread - #2/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m haha[m
+[15:54:25] [Async Chat Thread - #2/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m good thinking[m
+[15:54:25] [Async Chat Thread - #2/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m then i got the achievement[m
+[15:54:43] [Async Chat Thread - #2/INFO]:  [0;37;1m[[0;36;22mHouston[0;37;1m] [0;36;1m TexanModder[m[0;37;1m:[0;37;1m theres a raid bruh[m
+[15:54:50] [Async Chat Thread - #2/INFO]:  [0;37;1m[[0;36;22mOwnersVille[0;37;1m] [0;36;1m[0;31;22m[0;31;22m[L[0;31;22m[0;33;22me[0;33;22m[0;33;1mg[0;33;1m[0;32;22me[0;32;22m[0;36;1mn[0;36;1m[0;35;1md[0;35;1m[0;31;22m][0;31;22m [0;31;22mSkapDoesMC[m[0;37;1m:[0;37;1m PFFT[m
+[15:55:35] [Server thread/INFO]: TexanModder issued server command: /t
+[15:55:36] [Craft Scheduler Thread - 11/INFO]: [BuycraftX] Fetching all due players...
+[15:55:36] [Craft Scheduler Thread - 11/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:55:42] [Server thread/INFO]: SkapDoesMC issued server command: /tps
+[15:55:44] [Server thread/INFO]: TexanModder issued server command: /t create Texas_Republic
+[15:55:52] [Server thread/INFO]: TexanModder issued server command: /n new Texas_Republic
+[15:55:52] [pool-16-thread-1/INFO]: Creating empty config: C:\Users\Administrator\Desktop\Server\plugins\Essentials\userdata\f56ec66e-35fb-3cdc-a1e8-7d15bcc7cc8c.yml
+[15:55:52] [Server thread/INFO]: [Global Msg] TexanModder created a new nation called Texas Republic
+[15:55:52] [Server thread/INFO]: SpencerS145 has reached the goal [Sky's the Limit]
+[15:55:56] [Async Chat Thread - #3/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m HAHAHAHA[m
+[15:55:58] [Async Chat Thread - #3/INFO]:  [0;37;1m[[0;33;22mTexas_Republic[0;37;1m|[0;36;22mHouston[0;37;1m] [0;33;22m TexanModder[m[0;37;1m:[0;37;1m yeee haww[m
+[15:55:58] [Async Chat Thread - #3/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m I GOT ONE[m
+[15:56:37] [Async Chat Thread - #3/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m ahhahahaaaaaaa[m
+[15:56:54] [Async Chat Thread - #3/INFO]:  [0;37;1m[[0;33;22mTexas_Republic[0;37;1m|[0;36;22mHouston[0;37;1m] [0;33;22m TexanModder[m[0;37;1m:[0;37;1m oof[m
+[15:57:03] [Server thread/INFO]: SpencerS145 issued server command: /sethome
+[15:57:06] [Server thread/INFO]: SpencerS145 issued server command: /t spawn Nanortalik
+[15:57:36] [Craft Scheduler Thread - 11/INFO]: [BuycraftX] Fetching all due players...
+[15:57:36] [Craft Scheduler Thread - 11/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:58:11] [Server thread/INFO]: SpencerS145 issued server command: /t spawn Nanortalik
+[15:59:36] [Craft Scheduler Thread - 11/INFO]: [BuycraftX] Fetching all due players...
+[15:59:37] [Craft Scheduler Thread - 11/INFO]: [BuycraftX] Fetched due players (0 found).
+[15:59:44] [Async Chat Thread - #4/INFO]:  [0;37;1m[[0;33;22mTexas_Republic[0;37;1m|[0;36;22mHouston[0;37;1m] [0;33;22m TexanModder[m[0;37;1m:[0;37;1m where are horses[m
+[15:59:50] [Async Chat Thread - #4/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m uhhhh[m
+[15:59:53] [Server thread/INFO]: TexanModder issued server command: /t
+[15:59:53] [Async Chat Thread - #4/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m try savannahs[m
+[15:59:55] [Server thread/INFO]: TexanModder issued server command: /n
+[16:00:03] [Async Chat Thread - #4/INFO]:  [0;37;1m[[0;33;22mGreenland[0;37;1m|[0;36;22mNanortalik[0;37;1m] [0;33;22m SpencerS145[m[0;37;1m:[0;37;1m i think horses can spawn there[m
